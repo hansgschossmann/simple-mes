@@ -3,13 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <DebugType>portable</DebugType>
-    <AssemblyName>SimpleMes</AssemblyName>
+    <AssemblyName>simple-mes</AssemblyName>
     <OutputType>Exe</OutputType>
-    <PackageId>SimpleMes</PackageId>
-    <Company>Microsoft</Company>
-    <Product>Connectedfactory</Product>
+    <PackageId>simple-mes</PackageId>
+    <Company>Hans Gschossmann</Company>
+    <Product>Simple Production Line</Product>
     <Description>Simple Manufacturing Execution System</Description>
-    <Copyright>Copyright © 2004-2018 Microsoft Corp</Copyright>  </PropertyGroup>
+    <Copyright>Copyright © 2004-2010 Hans Gschossmann</Copyright>
+  </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="CertificateStores\**" />

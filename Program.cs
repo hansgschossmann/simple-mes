@@ -951,7 +951,7 @@ namespace SimpleMes
                 catch
                 {
                 }
-                _logger.Information("Connectedfactory Manufacturing Execution System starting up. Press CTRL-C to exit.");
+                _logger.Information("Simple Manufacturing Execution System starting up. Press CTRL-C to exit.");
 
                 // create stations
                 OpcApplicationConfiguration mesOpcConfiguration = new OpcApplicationConfiguration();

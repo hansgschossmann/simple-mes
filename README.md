@@ -18,22 +18,18 @@ Purpose of the shift control is to allow deploying production lines in different
 
 # Usage
 
-    Current directory is: C:\Repos\hg\simple-mes\bin\Debug\netcoreapp3.1
-    Log file is:
-    Log level is: info
-    SimpleMes V1.0.0.0 (Informational Version: 1.0.0+0025abdec7)
     Usage: SimpleMes.exe [<options>]
    
     Options:
           --as, --assemblystation=VALUE
                                  the endpoint of the assemblystation
-                                   Default: 'opc.tcp://johannglt:51210'
+                                   Default: 'opc.tcp://<hostname>:51210'
           --ts, --teststation=VALUE
                                  the endpoint of the teststation
-                                   Default: 'opc.tcp://johannglt:51211'
+                                   Default: 'opc.tcp://<hostname>:51211'
           --ps, --packagingstation=VALUE
                                  the endpoint of the packagingstation
-                                   Default: 'opc.tcp://johannglt:51212'
+                                   Default: 'opc.tcp://<hostname>:51212'
           --fs, --firstshiftstart=VALUE
                                  time the work starts every day (24hr format: hhmm)
                                    Default: '0600'
@@ -54,7 +50,7 @@ Purpose of the shift control is to allow deploying production lines in different
                                  number of working days per week starting monday
                                    Default: '0'
           --lf, --logfile=VALUE  the filename of the logfile to use.
-                                   Default: 'johannglt-mes.log'
+                                   Default: '<hostname>-mes.log'
           --ll, --loglevel=VALUE the loglevel to use (allowed: fatal, error, warn,
                                    info, debug, verbose).
                                    Default: info

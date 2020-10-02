@@ -21,7 +21,7 @@ namespace SimpleMes
 
         public static string ApplicationName { get; set; } = "SimpleMes";
 
-        public static string ApplicationUri => $"urn:{Hostname}:{ApplicationName}:microsoft:";
+        public static string ApplicationUri => $"urn:{Hostname}:{ApplicationName}:hansgschossmann:";
 
         public static string ProductUri => "https://github.com/hansgschossmann/simple-mes.git";
 
