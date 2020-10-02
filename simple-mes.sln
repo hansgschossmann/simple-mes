@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99F0F8B6-79F2-45FB-A5B7-5A3CD731A43D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Dockerfile = Dockerfile
+		version.json = version.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simple-mes", "simple-mes.csproj", "{78DF9BA6-9C06-4826-A9C7-0AA67B565087}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "simple-mes.tests", "simple-mes.tests\simple-mes.tests.csproj", "{8BD61EDF-051A-4ED3-9B36-EFF70148A1F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78DF9BA6-9C06-4826-A9C7-0AA67B565087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DF9BA6-9C06-4826-A9C7-0AA67B565087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DF9BA6-9C06-4826-A9C7-0AA67B565087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DF9BA6-9C06-4826-A9C7-0AA67B565087}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD61EDF-051A-4ED3-9B36-EFF70148A1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD61EDF-051A-4ED3-9B36-EFF70148A1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD61EDF-051A-4ED3-9B36-EFF70148A1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD61EDF-051A-4ED3-9B36-EFF70148A1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90B4B490-DDDE-4BB2-A111-E5DAE5000248}
+	EndGlobalSection
+EndGlobal
